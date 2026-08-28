@@ -122,13 +122,17 @@ body {
 				@apply font-semibold lg:text-3xl 2xl:text-5xl text-white;
 			}
 
+			h2 {
+				@apply font-semibold lg:text-2xl 2xl:text-4xl text-white;
+			}
+
 			img {
 				@apply container mx-auto w-2/3;
 			}
 		}
 
 		video {
-			@apply mx-auto lg:translate-y-5 2xl:translate-y-0;
+			@apply mt-16 mx-auto lg:translate-y-5 2xl:translate-y-0;
 		}
 
 		button {
