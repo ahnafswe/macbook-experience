@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-	title: "Apple MacBook Experience",
+	title: "MacBook Experience",
 	description:
 		"MacBook Experience | A recreated experience of Apple's MacBook Pro webpage.",
 };
