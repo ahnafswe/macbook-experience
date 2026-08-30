@@ -235,47 +235,47 @@ body {
 		@apply w-dvw h-full overflow-hidden pt-20 lg:pt-20 flex flex-col items-center relative;
 
 		h2 {
-			@apply font-semibold text-3xl lg:text-6xl text-white max-w-2xl text-center;
+			@apply font-semibold text-3xl lg:text-6xl text-white max-w-2xl text-center leading-tight mb-24;
 		}
 
 		.wrapper {
-			@apply w-7xl 2xl:w-[100rem] h-[50vh] lg:h-screen relative;
+			@apply relative w-full max-w-350 mx-auto h-[85vh] mb-28;
 
 			img {
 				@apply max-w-40 lg:max-w-108 2xl:max-w-140 object-cover object-center;
 			}
 
-			.p1 {
-				@apply absolute bottom-1/2 left-[23%] z-1 max-sm:left-[33%];
+			.pi-1 {
+				@apply object-contain absolute bottom-1/2 left-[23%] max-sm:left-[33%];
 			}
 
-			.p2 {
-				@apply absolute bottom-[40%] right-[17%] z-3 max-sm:right-[37%];
+			.pi-2 {
+				@apply object-contain absolute bottom-[40%] right-[17%] max-sm:right-[37%];
 			}
 
-			.p3 {
-				@apply absolute bottom-1/4 right-[15%] z-2 max-sm:right-[35%];
+			.pi-3 {
+				@apply object-contain absolute bottom-1/4 right-[15%] max-sm:right-[35%];
 			}
 
-			.p4 {
-				@apply absolute bottom-[15%] right-[10%] z-1 max-sm:right-[30%];
+			.pi-4 {
+				@apply object-contain absolute bottom-[15%] right-[10%] max-sm:right-[30%];
 			}
 
-			.p5 {
-				@apply absolute bottom-[20%] left-1/2 -translate-x-1/2 scale-150;
+			.pi-5 {
+				@apply object-contain absolute bottom-[20%] left-1/2 -translate-x-1/2 scale-150;
 			}
 
-			.p6 {
-				@apply absolute bottom-1/4 left-1/4 z-2 max-sm:left-[35%];
+			.pi-6 {
+				@apply object-contain absolute bottom-1/4 left-1/4 max-sm:left-[35%];
 			}
 
-			.p7 {
-				@apply absolute bottom-[5%] left-[15%] z-3 max-sm:left-[35%];
+			.pi-7 {
+				@apply object-contain absolute bottom-[5%] left-[15%] max-sm:left-[35%];
 			}
 		}
 
 		.content {
-			@apply mx-auto max-w-xl mt-24;
+			@apply mx-auto max-w-2xl;
 
 			p {
 				@apply lg:h3-semibold base-semibold text-center translate-y-10 opacity-0 px-5;
